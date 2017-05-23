@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 14px;
+	color: #382d2a;
+	font-family: Microsoft YaHei;
+}
+a {
+	text-decoration: none;
+}
+.hc_logo {
+	height: 129px;
+	overflow: auto;
+}
+.hc_logo a {
+	width: 160px;
+	height: 60px;
+	background: url(img/site_top_logo.png) no-repeat center bottom;
+	display: block;
+	margin: 36px auto 0;
+}
+.head_nav {
+	font-size: 18px;
+	height: 80px;
+	width: 1000px;
+	text-align: center;
+	margin: 0 auto;
+}
+.head_nav a {
+	float: left;
+	overflow: auto;
+	margin-right: 58px;
+	color: #382d2a;
+	height: 22px;
+	line-height: 22px;
+}
+.head_nav input {
+	width: 156px;
+	height: 22px;
+	line-height: 20px;
+	border: 1px solid #d3d3d4;
+	color: #666;
+	vertical-align: top;
+	outline: none;
+	margin-right: 20px;
+}
+.head_nav button {
+	vertical-align: top;
+}
+.head_nav .home_a {
+	margin-right: 20px;
+}
+.back {
+	width: 1000px;
+	margin:-30px auto 0;
+	border-top: 1px solid #d3d3d4;
+	padding: 38px 0 35px;
+	
+}
+.back a{
+	color: #382d2a;
+	font-size:18px;
+}
+.pc_container {
+	width: 1000px;
+	height: 800px;
+	margin: 0 auto;
+}
+.pc_container .left {
+	float: left;
+	width: 260px;
+	height: 380px;
+	font-size: 14px;
+	list-style-position:inside;
+}
+.left a {
+	font-size: 16px;
+}
+.left li {
+	padding-top: 2px;
+	list-style: square;
+	color: #382d2a;
+	list-style-position: inside;
+}
+.right {
+	width: 730px;
+	float: left;
+}
+.right .right_title h3{
+	font-size: 24px;
+	font-weight: lighter;
+	padding-top: 3px;
+}
+.intro {
+	width: 730px;
+	float: left;
+	padding: 12px 0 5px;
+	font-size: 16px;
+	line-height: 150%
+}
+.right_img {
+	width: 730px;
+	float: left;
+}
+.right_img img {
+	width: 226px;
+	height: 226px;
+}
+.footer {
+	clear: both;
+	width: 1000px;
+	margin:38px auto 0;
+	height: 170px;
+	border-top: 1px solid #d3d3d4;
+	background: url(img/site_foot_logo.png) no-repeat 35px 35px
+}
+.footer_a {
+	width: 453px;
+	float: right;
+	margin-top: -5px;
+}
+.footer_a ul {
+	float: left;
+	width: 150px;
+	min-height: 100px;
+	border-right: 1px solid #d3d3d4;
+	margin-top: 35px;
+	text-align: center;
+	list-style: none;
+}
+.footer_a li {
+	min-height: 25px;
+}
+.footer .footer_a_r {
+	border-right: none;
+}
+.copyright {
+	margin: 50px auto 30px;
+	text-align: center;
+}

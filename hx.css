@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+body {
+	background:url(img/start_bg.gif);
+}
+.home_page {
+	width: 100%;
+	height: 1080px;
+	background:url(img/start.jpg) no-repeat center;
+}
+.home_foot {
+	position: relative;
+	height: 200px;
+	border-top: 1px solid #382d2a;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	top: 1000px;
+}
+.home_foot a{
+	display: inline-block;
+	width: 180px;
+	height: 50px;
+	font-size: 20px;
+	line-height: 50px;
+	border: 1px solid #382d2a;
+	margin-top: 25px;
+	color: #382d2a;
+}
+.home_cn {
+	margin-right: 70px;
+}
+.home.en {
+	margin-left: 70px; 
+}

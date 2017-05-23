@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 14px;
+	color: #382d2a;
+	font-family: Microsoft YaHei;
+}
+a {
+	text-decoration: none;
+}
+.hc_logo {
+	height: 129px;
+	overflow: auto;
+}
+.hc_logo a {
+	width: 160px;
+	height: 60px;
+	background: url(img/site_top_logo.png) no-repeat center bottom;
+	display: block;
+	margin: 36px auto 0;
+}
+.head_nav {
+	font-size: 18px;
+	height: 80px;
+	width: 1000px;
+	text-align: center;
+	margin: 0 auto;
+}
+.head_nav a {
+	float: left;
+	overflow: auto;
+	margin-right: 58px;
+	color: #382d2a;
+	height: 22px;
+	line-height: 22px;
+}
+.head_nav input {
+	width: 156px;
+	height: 22px;
+	line-height: 20px;
+	border: 1px solid #d3d3d4;
+	color: #666;
+	vertical-align: top;
+	outline: none;
+	margin-right: 20px;
+}
+.head_nav button {
+	vertical-align: top;
+}
+.head_nav .home_a {
+	margin-right: 20px;
+}
+.select_image_show {
+	display: normal;
+}
+.select_image_hide {
+	display: none;
+}
+.select_image_show,.select_image_hide {
+	width: 1000px;
+	height: 560px;
+	text-align: center;
+	margin: -30px auto 0;
+}
+.select_image_show img,.select_image_hide img {
+	width: 1000px;
+	height: 560px;
+	text-align: center;
+}
+.sel_btn {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	cursor: pointer;
+	margin: 0 5px;
+	background:#000;
+}
+.unsel_btn {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	cursor: pointer;
+	margin: 0 5px;
+	background:#ccc;
+}
+.select_image_button {
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+
+
+.banner_foot {
+	width: 1000px;
+	height: 259px;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.banner_img {
+	position: absolute;
+	width: 1300px;
+	left: 0;
+}
+.banner_foot li {
+	width: 270px;
+	float: left;
+	display: inline-block;
+}
+.banner_foot img {
+	width: 250px;
+	height: 250px;
+}
+.banner_btn_l {
+	position: absolute;
+	left: 20px;
+	top: 110px;
+	width: 32px;
+	height: 32px;
+	background:url(img/arrows.png) no-repeat 0 0;
+	
+	
+}
+.banner_btn_r {
+	position: absolute;
+	right: 10px;
+	top: 110px;
+	width: 32px;
+	height: 32px;
+	background:url(img/arrows.png) no-repeat 0 -32px;
+}
+.banner_show {
+	position: absolute;
+	width: 810px;
+	height: 250px;
+	overflow: hidden;
+	left: 100px;
+}
+.footer {
+	width: 1000px;
+	margin:85px auto 0;
+	height: 170px;
+	border-top: 1px solid #d3d3d4;
+	background: url(img/site_foot_logo.png) no-repeat 35px 35px
+}
+.footer_a {
+	width: 453px;
+	float: right;
+}
+.footer_a ul {
+	float: left;
+	width: 150px;
+	min-height: 100px;
+	border-right: 1px solid #d3d3d4;
+	margin-top: 35px;
+	text-align: center;
+	list-style: none;
+}
+.footer_a li {
+	min-height: 25px;
+}
+.footer .footer_a_r {
+	border-right: none;
+}
+.copyright {
+	margin: 50px auto 30px;
+	text-align: center;
+}
