@@ -52,12 +52,7 @@ a {
 .head_nav .home_a {
 	margin-right: 20px;
 }
-.select_image_show {
-	display: normal;
-}
-.select_image_hide {
-	display: none;
-}
+
 .select_image_show,.select_image_hide {
 	width: 1000px;
 	height: 560px;
@@ -69,6 +64,37 @@ a {
 	height: 560px;
 	text-align: center;
 }
+.img_frame {
+	width: 1000px;
+	height: 560px;
+	margin:0 auto;
+	overflow: hidden;
+	margin-top: -30px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.img_window {
+	position: absolute;
+	width: 4000px;
+	text-align: center;
+	margin: 0 auto;
+	left: 0
+}
+.img_window img {
+	width: 1000px;
+	height: 560px;
+}
+.img_window li {
+	float: left;
+}
+.select_image_button span {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	cursor: pointer;
+	margin: 0 5px;
+	background:#ccc;
+}
 .sel_btn {
 	display: inline-block;
 	width: 8px;
@@ -77,17 +103,9 @@ a {
 	margin: 0 5px;
 	background:#000;
 }
-.unsel_btn {
-	display: inline-block;
-	width: 8px;
-	height: 8px;
-	cursor: pointer;
-	margin: 0 5px;
-	background:#ccc;
-}
 .select_image_button {
 	text-align: center;
-	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 
